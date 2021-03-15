@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83e2741c8fca43ceb34257db7549de6d" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.Discipline" Width="1.5" PointX="0.75" PointY="9.125" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.FormTime" Width="1.5" PointX="3.75" PointY="7.25" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.History" Width="1.5" PointX="8.25" PointY="3.75" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.Journal" Width="1.5" PointX="3" PointY="3.75" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.NameGroup" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.Role" Width="1.5" PointX="3.75" PointY="12.375" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.Special" Width="1.5" PointX="3.75" PointY="9.5" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.Status" Width="1.5" PointX="6" PointY="0.75" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.Student" Width="1.5" PointX="6" PointY="3.375" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8.25" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.Teacher" Width="1.5" PointX="3" PointY="15.125" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.User" Width="1.5" PointX="6" PointY="12.125" />
+        <EntityTypeShape EntityType="ТренировкаДэмоэкзаменаModel.YearAdd" Width="1.5" PointX="3.75" PointY="0.875" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_Journal_Discipline" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_Teacher_Discipline" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_Student_FormTime" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_History_Status" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_History_Student" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_History_User" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_Journal_NameGroup" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_Journal_Student" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_Student_NameGroup" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_User_Role1" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_Student_Special" />
+        <AssociationConnector Association="ТренировкаДэмоэкзаменаModel.FK_Student_YearAdd" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
